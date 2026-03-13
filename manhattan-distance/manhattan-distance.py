@@ -8,6 +8,7 @@ def manhattan_distance(x, y):
     # Write code here
     x = np.array(x)
     y = np.array(y)
-    arr = np.abs(x-y)    
+    arr = np.abs(x-y)   
+    # print(type(sum(arr)))
 
     return int(np.sum(arr))
